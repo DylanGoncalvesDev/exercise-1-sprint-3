@@ -1,5 +1,5 @@
 <?php 
-class PayPalPaymentGateway
+class PayPalPaymentGateway implements PaymentGateway
 {
     public function sendPayment(float $amount): string
     {
