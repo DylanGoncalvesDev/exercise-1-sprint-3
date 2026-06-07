@@ -20,7 +20,7 @@ class Result {
   }
 
   public function __toString(): string {
-    return $this->athlete . " Won " . $this->medal . " Medal in " . $this->event;
+    return $this->athlete . " Won " . $this->medal->name . " Medal in " . $this->event;
   }
 
 }

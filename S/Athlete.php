@@ -18,7 +18,7 @@ class Athlete {
   }
   
   public function __toString(): string {
-    return "The Athlete " . $this->nombre . " of " . $this->country;
+    return "The Athlete " . $this->name . " of " . $this->country;
   }
 }
 
