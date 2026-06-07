@@ -4,7 +4,7 @@ class Event {
 private string $event;
 private string $date;
 
-public function __construct(string $event, string $date;) {
+public function __construct(string $event, string $date) {
      $this->event = $event;
      $this->date = $date;
 }
