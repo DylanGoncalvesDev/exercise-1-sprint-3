@@ -14,7 +14,7 @@ class Athlete {
   }
   
   public function getCountry(): string {
-    retrun $this->country;
+    return $this->country;
   }
   
   public function __toString(): string {
